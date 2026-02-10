@@ -1,9 +1,9 @@
 # FastAPI and Web Framework
-fastapi==0.109.0
+fastapi==0.109.1
 uvicorn[standard]==0.27.0
 pydantic==2.5.0
 pydantic-settings==2.1.0
-python-multipart==0.0.6
+python-multipart==0.0.22
 
 # Database
 sqlalchemy==2.0.25
@@ -12,12 +12,12 @@ psycopg2-binary==2.9.9
 asyncpg==0.29.0
 
 # ML/AI
-torch==2.1.2
-torchvision==0.16.2
-transformers==4.36.2
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.48.0
 sentence-transformers==2.3.1
 opencv-python==4.9.0.80
-Pillow==10.2.0
+Pillow==10.3.0
 scikit-learn==1.4.0
 numpy==1.26.3
 scipy==1.11.4
@@ -29,7 +29,7 @@ bcrypt==4.1.2
 
 # PDF Generation
 reportlab==4.0.9
-weasyprint==60.2
+weasyprint==68.0
 
 # Utilities
 redis==5.0.1

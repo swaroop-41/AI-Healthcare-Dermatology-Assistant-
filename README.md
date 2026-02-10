@@ -145,10 +145,33 @@ Once the backend is running, visit:
 
 ## 🛠️ Tech Stack
 
-**Backend:** FastAPI, PyTorch, PostgreSQL, SQLAlchemy, ReportLab  
-**Frontend:** React 18, TailwindCSS, Vite  
-**ML/AI:** PyTorch, OpenCV, scikit-learn, Transformers  
-**DevOps:** Docker, Nginx, Redis
+**Backend:**
+- FastAPI 0.109.1 (security patched)
+- PyTorch 2.6.0 (security patched)
+- PostgreSQL 16
+- SQLAlchemy 2.0
+- ReportLab 4.0
+- WeasyPrint 68.0 (security patched)
+
+**Frontend:**
+- React 18.2
+- TailwindCSS 3.4
+- Vite 5.0
+- Axios
+- React Router 6
+
+**ML/AI:**
+- PyTorch 2.6.0 & TorchVision 0.21.0 (security patched)
+- Transformers 4.48.0 (security patched)
+- OpenCV
+- Pillow 10.3.0 (security patched)
+- scikit-learn
+
+**DevOps:**
+- Docker & Docker Compose
+- Nginx
+- PostgreSQL
+- Redis
 
 ## 📝 License
 

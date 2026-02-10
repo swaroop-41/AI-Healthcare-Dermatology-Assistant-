@@ -207,11 +207,11 @@
 ## 🛠️ Technology Stack
 
 ### Backend
-- **Framework**: FastAPI 0.109
-- **ML/AI**: PyTorch 2.1.2, TorchVision
+- **Framework**: FastAPI 0.109.1 (security patched)
+- **ML/AI**: PyTorch 2.6.0 (security patched), TorchVision 0.21.0
 - **Database**: PostgreSQL 16, SQLAlchemy 2.0
 - **Auth**: python-jose, passlib
-- **PDF**: ReportLab 4.0
+- **PDF**: ReportLab 4.0, WeasyPrint 68.0 (security patched)
 - **Testing**: pytest, pytest-asyncio
 
 ### Frontend

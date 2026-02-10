@@ -64,7 +64,11 @@ class SkinClassifier:
             
             # Load weights if available
             if os.path.exists(self.model_path):
-                model.load_state_dict(torch.load(self.model_path, map_location=self.device))
+                # SECURITY: Use weights_only=True to prevent arbitrary code execution
+                # Only set to False if you absolutely trust the model source
+                model.load_state_dict(
+                    torch.load(self.model_path, map_location=self.device, weights_only=True)
+                )
                 logger.info(f"Loaded model weights from {self.model_path}")
             else:
                 logger.warning(f"Model weights not found at {self.model_path}. Using untrained model.")
